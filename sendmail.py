@@ -6,9 +6,9 @@ from email.MIMEMultipart import MIMEMultipart
 from email.MIMEText import MIMEText
 from email.Utils import formatdate
         
-sender   = 'admin@basecave.com'
-username = 'nicorellius@gmail.com'
-password = 'jammingontheroofbutt'
+sender   = 'email@example.com'
+username = ''
+password = ''
 server   = 'smtp.gmail.com:587'
 
 def send_mail(subject, recipient, body):
