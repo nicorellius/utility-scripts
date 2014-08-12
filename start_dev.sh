@@ -2,10 +2,6 @@
 
 project=$1
 
-aproj="cd /home/nick/dev/django/projects/aerial-solutions/aersol"
-sproj="cd /home/nick/dev/django/projects/serupbot/serupbot"
-fproj="cd /home/nick/dev/django/projects/fiblist/fiblist"
-
 echo "starting apache and mysql..."
 
 bash /home/nick/dev/lamp/ctlscript.sh start
