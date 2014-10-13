@@ -20,9 +20,21 @@ then
     sproj
     settings=""
 
-else
+elif [ "${project}" == "fiblist" ];
+then
     echo "project is ${project} ... using alias fproj..."
     fproj
+    settings=""
+
+elif [ "${project}" == "pdxliteracy" ];
+then
+    echo "project is ${project} ... using alias lproj"
+    lproj
+    settings=""
+
+else
+    echo "project is ${project} ... using alias pproj"
+    pproj
     settings=""
 fi
 
